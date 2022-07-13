@@ -1,0 +1,147 @@
+main {
+  display: flex;
+}
+
+article {
+  margin: 70px 9%;
+  width: 1160px;
+}
+
+.title h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.title span {
+  color: #ff0101;
+}
+
+.title p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.graphics {
+  max-width: 835px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activity-graph {
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  width: 100%;
+  height: 320px;
+  margin-bottom: 30px;
+}
+
+.activity-graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-graph-title {
+  margin: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #20253a;
+}
+
+.activity-graph ul {
+  display: flex;
+}
+
+.activity-graph li {
+  margin: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #74798c;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.black-dot,
+.red-dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.black-dot {
+  background-color: #282d30;
+}
+
+.red-dot {
+  background-color: #e60000;
+}
+
+.sessions-graph,
+.performance-graph,
+.score-graph {
+  width: 30%;
+  height: 257px;
+  border-radius: 5px;
+}
+
+.sessions-graph-title {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.5;
+  color: white;
+  margin: 30px 40px;
+  width: 150px;
+}
+
+.sessions-graph {
+  background-color: #e60000;
+}
+
+.performance-graph {
+  background-color: #282d30;
+}
+
+.score-graph {
+  background-color: #fbfbfb;
+}
+
+.score-graph p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 30px 30px -50px 30px;
+}
+
+.info-cards {
+  width: 258px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1460px) {
+  .body {
+    flex-wrap: wrap;
+  }
+  .info-cards {
+    width: 100%;
+  }
+  article {
+    margin: 70px 7%;
+  }
+  .graphics {
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  
+}

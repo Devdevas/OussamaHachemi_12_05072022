@@ -1,0 +1,27 @@
+header {
+  background-color: #020203;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 178px;
+  margin-left: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+}
+
+header nav {
+ width: 1000px;
+ margin-right: 180px;
+}

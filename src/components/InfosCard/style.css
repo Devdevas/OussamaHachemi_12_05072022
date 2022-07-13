@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 32px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.card img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.nutrition {
+  font-size: 14px;
+  font-weight: 500;
+  color: #74798c;
+  text-align: left;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+@media screen and (max-width: 1460px) {
+  .card {
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 17%;
+  }
+  .card img {
+    width: 40px;
+  }
+  .nutrition {
+    font-size: 12px;
+  }
+  .count {
+    font-size: 15px;
+  }
+}

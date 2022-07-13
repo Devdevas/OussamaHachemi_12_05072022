@@ -1,46 +1,46 @@
-## Projet 12 - SportSee - Front-End :
+## Project 12 - SportSee - Front-End:
 This repo contains the code needed to run the front-End for SportSee.
 
-## Getting Started : 
-## L'architecture du projet :
-Ce projet est connecté à un service API backend que vous devez le lancer en local.
+## Getting Started: 
+## Project architecture:
+This project is connected to a backend API service that you need to run locally.
 
-Le projet backend pour lancer l'API en local se trouve ici: https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
+The backend project to run the API locally can be found here: https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 
-## Organiser son espace de travail :
-Créer un dossier SportSee dans lequel vous allez cloner le projet backend et par la suite, le projet frontend:
+## Organize your workspace:
+Create a SportSee folder where you will clone the backend project and then the frontend project:
 
-Clonez le projet backend dans le dossier SportSee :
+Clone the backend project in the SportSee folder:
 ```
 $ git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 ```
 
-Clonez le projet frontend dans le dossier SportSee :
+Clone the frontend project in the SportSee folder:
 ```
 $ git clone https://github.com/Devdevas/OussamaHachemi_12_05072022.git
 ```
 
-## Lancer l'application en local :
+## Launch the application locally:
 
-### étape 1 - Lancer le backend :
+### Step 1 - Launch the backend:
 
-Suivez les indications dans le README du projet backend.
+Follow the instructions in the README of the backend project.
 
-### étape 2 - Lancer le frontend :
+### Step 2 - Launch the frontend:
 
-Allez au repo cloné :
+Go to the cloned repo:
 ```
 $ cd SportSee-Front-End
 ```
 
-Installez les packages yarn (décrits dans `package.json`) :
+Install the npm packages (described in `package.json`) :
 ```
 $ npm install
 ```
 
-Lancez l'application :
+Launch the application :
 ```
 $ npm start
 ```
 
-Puis allez à l'adresse : `http://localhost:3010/user/12` or `http://localhost:3010/user/18`
+Then go to: `http://localhost:3010/user/12` or `http://localhost:3010/user/18`.

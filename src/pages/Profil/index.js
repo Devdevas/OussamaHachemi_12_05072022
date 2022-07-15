@@ -17,11 +17,11 @@ import RadialBarChartScore from '../../components/RadialBarChartScore';
 function Profil() {
   const { mainData, isDataLoading } = useContext(DataContext)
 
-  const firstName = mainData.data.userInfos.firstName
-  const calorieCount = mainData.data.keyData.calorieCount
-  const proteinCount = mainData.data.keyData.proteinCount
-  const carbohydrateCount = mainData.data.keyData.carbohydrateCount
-  const lipidCount = mainData.data.keyData.lipidCount
+  const firstName = mainData.userInfos.firstName
+  const calorieCount = mainData.keyData.calorieCount
+  const proteinCount = mainData.keyData.proteinCount
+  const carbohydrateCount = mainData.keyData.carbohydrateCount
+  const lipidCount = mainData.keyData.lipidCount
 
   return (
     <div className='block-page'>
@@ -57,6 +57,10 @@ function Profil() {
                 <div className='score-graph'>
                   <p>Score</p>
                   <RadialBarChartScore />
+                  <div className='score-details'>
+                    <h2>{mainData.score * 100}%</h2>
+                    <p>de votre objectif</p>
+                  </div>
                 </div>
               </div>
               <div className='info-cards'>

@@ -114,12 +114,35 @@ article {
 
 .score-graph {
   background-color: #fbfbfb;
+  position: relative;
 }
 
 .score-graph p {
   font-size: 15px;
   font-weight: 500;
   margin: 30px 30px -50px 30px;
+}
+
+.score-details {
+  background-color: white;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.score-details p {
+  text-align: center;
+  margin-top: 0;
+  font-size: 14px;
+  color: #74798c;
+}
+
+.score-details h2 {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .info-cards {
@@ -143,5 +166,10 @@ article {
     justify-content: space-between;
     max-width: 1200px;
   }
-  
+  .performance-graph,
+  .score-graph,
+  .sessions-graph {
+    width: 240px;
+    height: 240px;
+  }
 }

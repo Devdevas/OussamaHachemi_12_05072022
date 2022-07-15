@@ -2,12 +2,16 @@ import React, { useContext } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,  ResponsiveContainer } from 'recharts';
 import { DataContext } from '../../utils/DataContext';
 
+/**
+ * Create a BarChart for activity
+ * @return {Component} - Personalized BarChart from Recharts
+*/
 function BarChartActivity() {
     const { activityData } = useContext(DataContext)
 
     return <ResponsiveContainer width="100%" height='65%'>
         <BarChart
-            data={activityData.data.sessions}
+            data={activityData}
             margin={{
                 top: 15,
                 right: 30,
